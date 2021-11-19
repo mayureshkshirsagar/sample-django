@@ -21,5 +21,5 @@ urlpatterns = [
     path("polls/", include("polls.urls")),
     path("admin/", admin.site.urls),
     path("", include("frontpage.urls")),
-    url('', include('django_prometheus.urls')),
+    url("", include("django_prometheus.urls")),
 ]
